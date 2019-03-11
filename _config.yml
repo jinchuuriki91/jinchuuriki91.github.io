@@ -58,7 +58,7 @@ authors:
         name: Gandhar Pednekar
         bio: Some bio just for the sake of bio 🤓
         external-image: true
-        picture: assets/images/profile.jpg
+        picture: https://www.gravatar.com/avatar/91c1383c1787aa9407abd18f194778af
         twitter: GandharPednekar
 
 # do you want a larger site? change the option below
