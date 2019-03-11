@@ -13,4 +13,37 @@ author: gandhar
 description: A brief look into what InfluxDB is
 ---
 
-## Hello World
+## Just to quote Wiki
+
+```
+InfluxDB is an open-source time series database developed by InfluxData. 
+It is written in Go and optimized for fast, high-availability storage and
+retrieval of time series data in fields such as operations monitoring, 
+application metrics, Internet of Things sensor data, and real-time analytics.
+```
+
+But before we jump down that rabbit hole, let's wrap our heads around
+what Time Series Databases (TSDB) are ...
+
+## Time Series Database
+
+Time Series Database is a database designed specifically to work with time stamped data.
+
+In layman's term
+> A timestamp is your only Primary Key to read a data point.
+
+_**Note:** Going ahead we'll refer Time Series Database as TSDB. Ok fine I'm lazy_ 😅
+
+
+#### TSDB usage
+* Event tracking, monitoring and aggregate data over time
+* Server metrics
+* Application performance monitoring
+* Network and Sensor data
+* Trades in a market
+
+#### Few examples of TSDB
+1. Prometheus
+1. OpenTSDB
+1. Graphite
+1. InfluxDB
