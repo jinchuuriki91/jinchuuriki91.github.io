@@ -47,3 +47,16 @@ _**Note:** Going ahead we'll refer Time Series Database as TSDB. Ok fine I'm laz
 1. OpenTSDB
 1. Graphite
 1. InfluxDB
+
+
+### Installing InfluxDB
+
+##### For Ubuntu & Debian
+
+* With a .deb file
+
+![Installing InfluxDB](https://s3.ap-south-1.amazonaws.com/jinchuuriki91.github.io/influxdb_step1.png)
+
+* With apt
+
+![Installing InfluxDB](https://s3.ap-south-1.amazonaws.com/jinchuuriki91.github.io/influxdb_step2.png)
