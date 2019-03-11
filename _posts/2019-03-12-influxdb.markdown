@@ -1,0 +1,16 @@
+---
+title: "What is InfluxDB?"
+layout: post
+date: 2019-03-12 22:00
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- influxdb
+- go
+- tsdb
+category: blog
+author: gandhar
+description: A brief look into what InfluxDB is
+---
+
+## Hello World
