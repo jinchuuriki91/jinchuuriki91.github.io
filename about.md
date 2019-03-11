@@ -11,7 +11,7 @@ layout: page
 
 <ul class="skill-list">
 	<li>HTML, CSS, Javascript</li>
-	<li>Python</li>
+	<li>Python - Django</li>
 	<li>Chef</li>
 	<li>Bash</li>
 	<li>AngularJS - ReactJS</li>
