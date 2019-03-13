@@ -1,1 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://jinchuuriki91.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="http://jinchuuriki91.github.io//" rel="alternate" type="text/html" /><updated>2019-03-12T15:53:39+05:30</updated><id>http://jinchuuriki91.github.io//feed.xml</id><title type="html">Gandhar Pednekar</title><subtitle>A blog about technology and stuff related</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://gandharp.xyz/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gandharp.xyz/" rel="alternate" type="text/html" /><updated>2019-03-13T15:33:55+05:30</updated><id>https://gandharp.xyz/feed.xml</id><title type="html">Gandhar Pednekar</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">What is InfluxDB?</title><link href="https://gandharp.xyz/influxdb/" rel="alternate" type="text/html" title="What is InfluxDB?" /><published>2019-03-12T22:00:00+05:30</published><updated>2019-03-12T22:00:00+05:30</updated><id>https://gandharp.xyz/influxdb</id><content type="html" xml:base="https://gandharp.xyz/influxdb/">&lt;h2 id=&quot;just-to-quote-wiki&quot;&gt;Just to quote Wiki&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;InfluxDB is an open-source time series database developed by InfluxData. It is written in Go and optimized for fast, high-availability storage and retrieval of time series data in fields such as operations monitoring, application metrics, Internet of Things sensor data, and real-time analytics.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But before we jump down that rabbit hole, let’s wrap our heads around
+what Time Series Databases (TSDB) are …&lt;/p&gt;
+
+&lt;h2 id=&quot;time-series-database&quot;&gt;Time Series Database&lt;/h2&gt;
+
+&lt;p&gt;Time Series Database is a database designed specifically to work with time stamped data.&lt;/p&gt;
+
+&lt;p&gt;In layman’s term&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;A timestamp is your only Primary Key to read a data point.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; Going ahead we’ll refer Time Series Database as TSDB. Ok fine I’m lazy&lt;/em&gt; 😅&lt;/p&gt;
+
+&lt;h4 id=&quot;tsdb-usage&quot;&gt;TSDB usage&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Event tracking, monitoring and aggregate data over time&lt;/li&gt;
+  &lt;li&gt;Server metrics&lt;/li&gt;
+  &lt;li&gt;Application performance monitoring&lt;/li&gt;
+  &lt;li&gt;Network and Sensor data&lt;/li&gt;
+  &lt;li&gt;Trades in a market&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;few-examples-of-tsdb&quot;&gt;Few examples of TSDB&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Prometheus&lt;/li&gt;
+  &lt;li&gt;OpenTSDB&lt;/li&gt;
+  &lt;li&gt;Graphite&lt;/li&gt;
+  &lt;li&gt;InfluxDB&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;installing-influxdb&quot;&gt;Installing InfluxDB&lt;/h3&gt;
+
+&lt;h5 id=&quot;for-ubuntu--debian&quot;&gt;For Ubuntu &amp;amp; Debian&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;With a .deb file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.ap-south-1.amazonaws.com/jinchuuriki91.github.io/influxdb_step1.png&quot; alt=&quot;Installing InfluxDB&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;With apt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s3.ap-south-1.amazonaws.com/jinchuuriki91.github.io/influxdb_step2.png&quot; alt=&quot;Installing InfluxDB&quot; /&gt;&lt;/p&gt;</content><author><name>gandhar</name></author><category term="blog" /><category term="influxdb" /><category term="go" /><category term="tsdb" /><summary type="html">Just to quote Wiki</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://gandharp.xyz/assets/images/markdown.jpg" /></entry></feed>
