@@ -71,7 +71,14 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-# projects: true
+projects: true
+projectList:
+  - https://api.github.com/repos/jinchuuriki91/python-hearthis
+  - https://api.github.com/repos/jinchuuriki91/django-gst-field
+  - https://api.github.com/repos/jinchuuriki91/blogging-cli-app
+  - https://api.github.com/repos/jinchuuriki91/wordpress-server-setup
+  - https://api.github.com/repos/jinchuuriki91/challenge-json-restructure
+  - https://api.github.com/repos/jinchuuriki91/python-uber-cli
 
 # if you don't need "about" or "blog", comment them out below
 about: true
