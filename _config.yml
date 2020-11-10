@@ -14,7 +14,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://s3.ap-south-1.amazonaws.com/jinchuuriki91.github.io/gandharpednekar.pdf
+resume-url: assets/Gandhar_s_Resume.pdf
 
 url: https://gandharp.xyz
 # your url: http://USERNAME.github.io
@@ -22,7 +22,7 @@ url: https://gandharp.xyz
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-86824220-1'
+analytics-google: "UA-86824220-1"
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -51,15 +51,15 @@ github: jinchuuriki91
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: gandharp@pm.me 
+email: gandharp@pm.me
 
 authors:
-    gandhar:
-        name: Gandhar Pednekar
-        bio: Some bio just for the sake of bio 🤓
-        external-image: true
-        picture: https://www.gravatar.com/avatar/91c1383c1787aa9407abd18f194778af
-        twitter: GandharPednekar
+  gandhar:
+    name: Gandhar Pednekar
+    bio: Some bio just for the sake of bio 🤓
+    external-image: true
+    picture: https://www.gravatar.com/avatar/91c1383c1787aa9407abd18f194778af
+    twitter: GandharPednekar
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -110,12 +110,13 @@ plugins:
   - jekyll-admin
 
 jekyll-mentions:
-    base_url: https://github.com
+  base_url: https://github.com
 
 compress_html:
-    ignore:
-        envs:
-        - development
-        - stage
+  ignore:
+    envs:
+      - development
+      - stage
 
-exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
+exclude:
+  ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
